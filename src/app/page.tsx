@@ -3,7 +3,7 @@ export default function InfocelSite() {
   const whatsapp = "5514996509949";
   const instagram = "https://www.instagram.com/infocelcelulares";
 
-  const main products = [
+  const products = [
     {
       id: 1,
       name: "Carregadores e Cabos",
@@ -93,8 +93,7 @@ export default function InfocelSite() {
       {/* CATÁLOGO */}
       <section id="catalogo" className="py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-6">
-          <h3 className="text-3xl font-black mb-10 text-center">Produtos</h3>
-
+          <h3 className="text-3xl font-black mb-10 text-center">Produtos Principais</h3>
           <div className="grid md:grid-cols-4 gap-6">
             {products.map((p) => (
               <div key={p.id} className="bg-white rounded-2xl shadow">
