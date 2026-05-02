@@ -3,7 +3,7 @@ export default function InfocelSite() {
   const whatsapp = "5514996509949";
   const instagram = "https://www.instagram.com/infocelcelulares";
 
-  const products = [
+  const main products = [
     {
       id: 1,
       name: "Carregadores e Cabos",
